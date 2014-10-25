@@ -14,6 +14,7 @@
 		43D65CD519FB3D7500FC9F93 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43D65CD419FB3D7500FC9F93 /* Images.xcassets */; };
 		43D65CD819FB3D7500FC9F93 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43D65CD619FB3D7500FC9F93 /* LaunchScreen.xib */; };
 		43D65CE419FB3D7500FC9F93 /* Core_Location_TutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D65CE319FB3D7500FC9F93 /* Core_Location_TutorialTests.m */; };
+		43D65CEE19FB3DC300FC9F93 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43D65CED19FB3DC300FC9F93 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		43D65CDD19FB3D7500FC9F93 /* Core Location TutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Core Location TutorialTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		43D65CE219FB3D7500FC9F93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43D65CE319FB3D7500FC9F93 /* Core_Location_TutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Core_Location_TutorialTests.m; sourceTree = "<group>"; };
+		43D65CED19FB3DC300FC9F93 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43D65CEE19FB3DC300FC9F93 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		43D65CBB19FB3D7500FC9F93 = {
 			isa = PBXGroup;
 			children = (
+				43D65CED19FB3DC300FC9F93 /* CoreLocation.framework */,
 				43D65CC619FB3D7500FC9F93 /* Core Location Tutorial */,
 				43D65CE019FB3D7500FC9F93 /* Core Location TutorialTests */,
 				43D65CC519FB3D7500FC9F93 /* Products */,
